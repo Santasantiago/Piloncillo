@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Piloncillo</h1>
+        <p>Compra y Venta</p>
+    </div>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="index.html">🏠 Inicio</a>
+        <a href="nosotros.html">👋 Nosotros</a>
+        <a href="contacto.html" class="active">📞 Contacto</a>
+    </div>
+    <div class="contact-section">
+        <h1>Contactanos</h1>
+        <p>📞 868-376-04-94</p>
+        <p>📧 tinom@gmail.com</p>
+    </div>
+    <div class="section">
+        <div class="row">
+            <div class="column-left" style="text-align: center;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d463.5798156982703!2d-98.86837604948192!3d21.63900490143158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d660376f41fa5b%3A0xf9a852ef1b4ea7a9!2sTocoy%2C%20S.L.P.!5e0!3m2!1ses-419!2smx!4v1607567944945!5m2!1ses-419!2smx"
+                    width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+            <div class="column-left">
+                <form action="#">
+                    <label for="fname">Nombre</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="text" id="email" name="email" placeholder="Tus apellidos..">
+                    <label for="subject">Descripción</label>
+                    <textarea id="subject" name="subject" placeholder="Escribe algo..."></textarea>
+                    <input type="submit" value="Enviar" onclick="contacto()">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <h2>👩‍💻Santa Martínez Santiago</h2>
+    </div>
+
+    <script src="js/app.js" charset="utf-8"></script>
+</body>
+
+</html>
